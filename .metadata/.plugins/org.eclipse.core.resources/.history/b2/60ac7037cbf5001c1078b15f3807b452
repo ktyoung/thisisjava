@@ -1,6 +1,6 @@
 package sec02.exam04_long;
 
-public class LongExample {
+public class longExample {
 
 	public static void main(String[] args) {
 		long var1 = 10;
