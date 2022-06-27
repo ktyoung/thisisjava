@@ -1,0 +1,10 @@
+package sec02.exam03_int;
+
+public class intExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
