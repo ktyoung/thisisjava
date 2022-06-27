@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sec01.exam01_byte.GrabageValueExample&apos; to &apos;GarbageValueExample&apos;&#x0D;&#x0A;- Original project: &apos;chap02&apos;&#x0D;&#x0A;- Original element: &apos;sec01.exam01_byte.GrabageValueExample&apos;&#x0D;&#x0A;- Renamed element: &apos;sec01.exam01_byte.GarbageValueExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GrabageValueExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sec01.exam01_byte{GrabageValueExample.java[GrabageValueExample" matchStrategy="1" name="GarbageValueExample" qualified="false" references="true" similarDeclarations="false" stamp="1656295012837" textual="false" version="1.0"/>
+</session>
