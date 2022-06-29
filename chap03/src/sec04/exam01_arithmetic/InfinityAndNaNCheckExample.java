@@ -9,7 +9,7 @@ public class InfinityAndNaNCheckExample {
 		double z = x / y;
 		// double z = x % y;
 		
-		System.out.println(Double.isInfinite(z)); // 주어진 값이 유한값인가? (유한 T / 무한 F) 
+		System.out.println(Double.isInfinite(z)); // 주어진 값이 무한값인가? (무한 T / 유한 F) 
 		System.out.println(Double.isNaN(z)); // 주어진 값이 숫자가 아닌가? (Not a Number) (숫자가 아니면 T / 숫자면 F)
 
 		// 잘못된 코드
