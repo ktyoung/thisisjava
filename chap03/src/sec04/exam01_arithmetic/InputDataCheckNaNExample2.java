@@ -8,6 +8,7 @@ public class InputDataCheckNaNExample2 {
 		
 		double currentBalance = 10000.0;
 		
+		// NaN을 숫자로 초기화
 		if(Double.isNaN(val)) { 
 			// val이 숫자가 아니므로 True, 아래구문 실행
 			System.out.println("NaN이 입력되어 처리할 수 없음");
