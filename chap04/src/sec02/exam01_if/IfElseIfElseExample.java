@@ -3,7 +3,7 @@ package sec02.exam01_if;
 public class IfElseIfElseExample {
 
 	public static void main(String[] args) {
-		int score = 101;
+		int score = 99;
 		
 		if (score > 100) {
 			System.out.println("잘못된 점수입니다.");
