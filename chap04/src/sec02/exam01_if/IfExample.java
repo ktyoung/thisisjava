@@ -1,4 +1,4 @@
-package sec02_exam01_if;
+package sec02.exam01_if;
 
 public class IfExample {
 
