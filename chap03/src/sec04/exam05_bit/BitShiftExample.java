@@ -7,6 +7,7 @@ public class BitShiftExample {
 		System.out.println("1 << 3 = " + (1 << 3)); // 비트열을 왼쪽으로 3칸 이동
 		// 오른쪽 shift 연산자 : 왼쪽 빈 공간을, 음수일 때 : 1로, 양수일 때 : 0으로 채움
 		System.out.println("-8 >> 3 = " + (-8 >> 3)); // 비트열을 오른쪽으로 3칸 이동
+		// >>> 연산자 : 부호를 신경쓰지 않음. 빈 공간을 0으로 채움
 		System.out.println("-8 >>> 3 = " + (-8 >>> 3)); // 
 		
 		System.out.println();
