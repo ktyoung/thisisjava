@@ -1,4 +1,4 @@
-package sec03.exam01_for;
+package sec03.exam02_while;
 
 public class WhilePrintFrom1To10Example {
 
