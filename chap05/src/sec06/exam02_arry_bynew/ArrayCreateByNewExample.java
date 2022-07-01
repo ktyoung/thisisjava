@@ -3,7 +3,7 @@ package sec06.exam02_arry_bynew;
 public class ArrayCreateByNewExample {
 
 	public static void main(String[] args) {
-		int arr1[] = new int[3];	// 초기값 0
+		int arr1[] = new int[3];	// int방 3개 생성 : 초기값 0
 		System.out.println("arr1 초기화 전");
 		for(int i=0; i<3; i++) {
 			System.out.println("arr1[" + i + "] : " + arr1[i]);
