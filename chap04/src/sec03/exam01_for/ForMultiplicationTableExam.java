@@ -3,11 +3,11 @@ package sec03.exam01_for;
 public class ForMultiplicationTableExam {
 
 	public static void main(String[] args) {
-		for(int m=2; m<=9; m++) {
-			System.out.println("*** " + m + "´Ü ***");
-			for(int n=1; n<=9; n++) {
-				System.out.println(m + " x " + n + " = " + (m*n));
+		for(int j=1; j<=9; j++) {
+			for(int i=2; i<=9; i++) {
+				System.out.print(i + " x " + j + " = " + (i*j) + "\t");
 			}
+			System.out.println(" ");
 		}
 
 	}

@@ -8,8 +8,12 @@ public class ForSumFrom1To10 {
 		
 		for(i=1; i<=10; i++) {
 			sum += i;
-			System.out.println(i + "번째 합 : " + sum);
+			
+			System.out.println(i + "번째 합 ");
+			System.out.println("i=" + i + ", sum=" + (sum-i) + ", i+sum= " + sum);
 		}
+		System.out.println("");
+		System.out.println("전체 합 = " + sum);
 
 	}
 
