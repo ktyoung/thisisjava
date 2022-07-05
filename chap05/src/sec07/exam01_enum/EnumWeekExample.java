@@ -28,6 +28,12 @@ public class EnumWeekExample {
 			
 		}
 		System.out.println("오늘 요일 : " + today);
+		
+		if(today == Week.SUNDAY) {
+			System.out.println("일요일에는 축구를 합니다.");
+		} else {
+			System.out.println("열심히 자바 공부합니다.");
+		}
 	}
 
 }

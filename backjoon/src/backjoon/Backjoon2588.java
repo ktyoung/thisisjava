@@ -14,7 +14,13 @@ public class Backjoon2588 {
 		Scanner sc = new Scanner(System.in);
 		A = sc.nextInt();
 		B = sc.nextInt();
+		num1 = (B%10)*A;
+		num2 = ((B%100)/10)*A;
+		num3 = (B/100)*A;
 		
+		System.out.println( num1 );
+		System.out.println( num2 );
+		System.out.println( num3 );
 		System.out.println( A*B );
 		
 	}
