@@ -1,0 +1,22 @@
+package backjoon;
+
+import java.util.Scanner;
+
+public class Backjoon2753 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int year = sc.nextInt();
+		int yearValue = 0;
+		
+		if(year%4==0 && year%100!=0 || year%400==0) {
+			yearValue = 1;
+			System.out.println(yearValue);
+		} else {
+			System.out.println(yearValue);
+		}
+
+	}
+
+}
