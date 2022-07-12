@@ -12,5 +12,4 @@ public class CalculatorExample {
 		System.out.println("result3 : " + result3);
 
 	}
-
 }
