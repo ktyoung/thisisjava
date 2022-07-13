@@ -7,16 +7,20 @@ public class Backjoon10871 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int[] arr = { 0 };
-		int n, x, val = 0;
-		n = sc.nextInt();
+		int n = 0;
+		int x = 0;
 		
-		for(int i=0; i<n; i++) {
-			val = sc.nextInt();
-			arr[i] = val;
-			System.out.println(arr[i]);
+		n = sc.nextInt();
+		x = sc.nextInt();
+		
+		for(int i=0; i<n ;i++) {
+			int temp = sc.nextInt();
 			
+			if(temp < x) {
+				System.out.print(temp + " ");				
+			}
 		}
+		
 		
 	}
 
