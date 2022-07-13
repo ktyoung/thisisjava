@@ -8,7 +8,8 @@ public class SupersonicAirplane extends Airplane {
 	
 	// 자식 클래스에 부모 클래스의 메서드를 오버라이딩하면, 부모 클래스는 숨겨지고 오버라이딩 된 자식 메서드만 사용된다.
 	
-	@Override // 추가로 덧붙여짐
+	@Override	// 메서드 재정의 : 상속된 일부 메서드를 자식 클래스에서 다시 수정하여 사용
+				// 메서드가 오버라이딩 되었다면, 부모 객체의 메서드는 숨겨지기 때문에 자식 객체에서 메서드를 호출하면 오버라이딩 된 자식 메서드가 호출된다.
 	public void fly() {
 		if(flyMode == SUPERSONIC) {
 			System.out.println("초음속비행합니다.");	// flyMode()가 SUPERSONIC 상수값을 가질 경우 "초음속비행합니다" 출력
