@@ -1,4 +1,4 @@
-package sec07.exam01_promotion_access;
+package sec07.exam02_promotion_access;
 
 public class Child extends Parents {
 	@Override 
