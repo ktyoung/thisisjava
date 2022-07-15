@@ -7,12 +7,14 @@ public class CarExample {
 		
 		for(int i=1; i<5 ; i++ ) {
 			int problemLocation = car.run();
+			
 			if(problemLocation != 0) {
 				System.out.println(car.tires[problemLocation-1].location + " HankookTire로 교체");
+				
 				// 문제가 생긴 배열 위치의 타이어를 교체함
 				car.tires[problemLocation-1] = new HankookTire(car.tires[problemLocation-1].location, 15);   
 			}
-			System.out.println("==============================");	// 구분선 출력
+			System.out.println("==============================");
 		}
 	}
 }	
