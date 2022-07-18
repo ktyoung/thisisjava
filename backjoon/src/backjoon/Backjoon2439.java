@@ -9,7 +9,6 @@ public class Backjoon2439 {
 		int num = 0;
 		num=sc.nextInt();
 		
-		
 		for(int i=1; i<=num; i++) {
 			for(int j=(num-1); j>=i; j--) {
 				System.out.print(" ");

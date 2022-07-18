@@ -10,7 +10,7 @@ public class Backjoon2438 {
 		int num = 0;
 		num = sc.nextInt();
 		
-		for(int i=1; i<=num; i++) {
+		for(int i=1; i<=5; i++) {
 			for(int j=0; j<i; j++) {
 				System.out.print("*");
 			}
