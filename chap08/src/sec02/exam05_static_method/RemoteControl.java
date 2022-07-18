@@ -1,4 +1,4 @@
-package sec02.exam04_static_method;
+package sec02.exam05_static_method;
 
 public interface RemoteControl {
 	// 절대적 : 정말 아무것도 손댈 수 없음
