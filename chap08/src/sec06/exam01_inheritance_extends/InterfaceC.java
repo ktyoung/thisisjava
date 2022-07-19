@@ -1,4 +1,4 @@
-package sec05.exam06_inheritance_extends;
+package sec06.exam01_inheritance_extends;
 
 public interface InterfaceC extends InterfaceA, InterfaceB {
 	public void methodC();
