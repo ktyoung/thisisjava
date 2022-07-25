@@ -20,7 +20,6 @@ public class Car {
 				stop();
 				return (i+1);
 			}
-			
 		}
 		return 0;
 	}

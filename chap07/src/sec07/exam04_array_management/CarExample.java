@@ -5,11 +5,14 @@ public class CarExample {
 	public static void main(String[] args) {
 		Car car = new Car();
 		
-		for(int i=1; i<5 ; i++ ) {
+		for(int i=1; i<5 ; i++) {
 			int problemLocation = car.run();
 			
+			// 1번 펑크
+			// if(1 != 0)
 			if(problemLocation != 0) {
 				System.out.println(car.tires[problemLocation-1].location + " HankookTire로 교체");
+				// car.tires[0].location
 				
 				// 문제가 생긴 배열 위치의 타이어를 교체함
 				car.tires[problemLocation-1] = new HankookTire(car.tires[problemLocation-1].location, 15);   
