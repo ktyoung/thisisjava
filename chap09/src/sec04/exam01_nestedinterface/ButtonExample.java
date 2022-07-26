@@ -9,8 +9,6 @@ public class ButtonExample {
 		
 		btn.setOnClickListener(new MessageListener());
 		btn.touch();
-		
-
 	}
 
 }
