@@ -8,5 +8,4 @@ public class Main {
 		w.button1.touch();
 		w.button2.touch();
 	}
-
 }

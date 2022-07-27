@@ -9,4 +9,7 @@
 <fullyQualifiedTypeName name="sec03.exam01_name_implement_class.RemoteControl"/>
 <fullyQualifiedTypeName name="sec02.exam01_nestedclass_object.A.C"/>
 <fullyQualifiedTypeName name="sec02.exam01_nestedclass_object.A.B"/>
+<fullyQualifiedTypeName name="sec03.exam04_outterclass_ref.Outter.Nested"/>
+<fullyQualifiedTypeName name="sec04.exam01_nestedinterface.Button.OnClickListener"/>
+<fullyQualifiedTypeName name="sec05.exam03_button_event.Button.OnClickListener"/>
 </qualifiedTypeNameHistroy>
