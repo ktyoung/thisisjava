@@ -13,4 +13,5 @@
 <fullyQualifiedTypeName name="sec04.exam01_nestedinterface.Button.OnClickListener"/>
 <fullyQualifiedTypeName name="sec05.exam03_button_event.Button.OnClickListener"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 </qualifiedTypeNameHistroy>
