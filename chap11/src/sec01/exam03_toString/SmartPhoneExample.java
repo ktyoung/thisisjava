@@ -1,4 +1,4 @@
-package sec01_exam03_toString;
+package sec01.exam03_toString;
 
 public class SmartPhoneExample {
 

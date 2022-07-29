@@ -1,4 +1,4 @@
-package sec01_exam02_hashcode;
+package sec01.exam02_hashcode;
 
 // hashCode() 메서드는 객체의 메모리 번지를 이용해서 해시코드를 만들어 리턴한다. 따라서 객체마다 다른 값을 가지고 있다.
 // 객체 해시코드 : 객체를 식별할 하나의 정수값

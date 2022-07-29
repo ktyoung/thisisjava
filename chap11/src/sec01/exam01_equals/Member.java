@@ -1,4 +1,4 @@
-package sec01_exam01_equals;
+package sec01.exam01_equals;
 
 // 객체비교 equals : 매개 타입 → Object로 모든 객체가 매개값으로 대입될 수 있다. 리턴 타입 → boolean (비교 연산자 == 와 동일한 결과 리턴)
 // 논리적으로 동등하다는 의미 : 같은 객체이건 다른 객체이건 상관없이 저장하고 있는 데이터가 동일함.
