@@ -10,7 +10,7 @@ public class GcExample {
 		emp = new Employee(2);	// 쓰레기 객체가 됨
 		emp = new Employee(3);
 		
-		System.out.println("emp가 최종적으로 참소하는 사원번호: ");
+		System.out.print("emp가 최종적으로 참소하는 사원번호: ");
 		System.out.println(emp.eno);
 		System.gc();			// 쓰레기 수집기 실행요청
 
