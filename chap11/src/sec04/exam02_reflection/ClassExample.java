@@ -4,6 +4,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+// 클래스 객체를 이용하면 클래스의 필드, 생성자, 메서드 정보를 알아낼 수 있다. → 이것을 리플렉션(Reflection)이라 함.
+// 클래스 객체는 리플렉션을 위해 getDeclaredConstructors(), getDeclaredField(), getDeclaredMethods()를 제공
 public class ClassExample {
 
 	public static void main(String[] args) throws Exception {
