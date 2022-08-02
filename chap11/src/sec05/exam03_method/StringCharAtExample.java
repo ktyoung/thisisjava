@@ -1,5 +1,6 @@
 package sec05.exam03_method;
 
+// 매개값으로 주어진 인덱스의 문자를 리턴하는 charAt() 메서드
 public class StringCharAtExample {
 
 	public static void main(String[] args) {
