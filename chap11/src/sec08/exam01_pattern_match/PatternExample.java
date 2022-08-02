@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 public class PatternExample {
 
 	public static void main(String[] args) {
+		// () → 하위식, 여러개의 식을 하나로 묶을 수 있다
 		// (02|010) → 02 또는 010 , - , \d{3,4} → 3자리 또는 4자리 숫자 , - , \d{4} → 4자리 숫자
 		String regExp = "(02|010-\\d{3,4}-\\d{4})";
 		String data = "010-123-4567";
@@ -29,7 +30,7 @@ public class PatternExample {
 		}
 		
 		// 날짜 형식 정규 표현식
-		// ^ → 식의 시작, $ → 식의 끝
+		// ^ → 문자열이나 행의 처음, $ → 문자열이나 행의 끝
 		// ^\\d{4}-\\d{2}-\\d{2}$
 	}
 
