@@ -27,7 +27,10 @@ public class PatternExample {
 		} else {
 			System.out.println("정규식과 일치하지 않습니다.");
 		}
-
+		
+		// 날짜 형식 정규 표현식
+		// ^ → 식의 시작, $ → 식의 끝
+		// ^\\d{4}-\\d{2}-\\d{2}$
 	}
 
 }
