@@ -19,4 +19,6 @@
 <fullyQualifiedTypeName name="java.util.Objects"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 </qualifiedTypeNameHistroy>
