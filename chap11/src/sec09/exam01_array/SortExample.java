@@ -29,5 +29,4 @@ public class SortExample {
 			System.out.println("members[" + i + "] = " + members[i].name);
 		}
 	}
-
 }
