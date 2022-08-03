@@ -43,13 +43,19 @@ public class MathExample {
 		System.out.println("v12 = " + v12);
 		System.out.println("v13 = " + v13);
 		
-		// round() 메서드는 항상 소수 첫 번째 자리에서 반올림하여 정수를 리턴한다.
-		// 원하는 자리에서 반올림 하려면 반올림할 자리를 맞추기 위해 10^n을 곱한다.
 		System.out.println("[반올림]");
 		long v14 = Math.round(5.3);
 		long v15 = Math.round(5.7);
 		System.out.println("v14 = " + v14);
 		System.out.println("v15 = " + v15);
+		
+		// round() 메서드는 항상 소수 첫 번째 자리에서 반올림하여 정수를 리턴한다.
+		// 원하는 자리에서 반올림 하려면 반올림할 자리를 맞추기 위해 10^n을 곱한다.
+		double value = 12.3456;
+		double temp1 = value * 100;
+		long temp2 = Math.round(temp1);
+		double v16 = temp2 / 100;
+		System.out.println("v16 = " + v16);
 	}
 
 }
