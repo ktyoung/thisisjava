@@ -2,6 +2,7 @@ package sec09.exam01_array;
 
 import java.util.Arrays;
 
+// Arrays.binarySearch()는 반드시 배열을 sort 한 후 사용해야 한다!
 public class SearchExample {
 
 	public static void main(String[] args) {
