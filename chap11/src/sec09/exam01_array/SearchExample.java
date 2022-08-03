@@ -27,5 +27,4 @@ public class SearchExample {
 		index = Arrays.binarySearch(members, m1);
 		System.out.println("√£¿∫ ¿Œµ¶Ω∫ : " + index);
 	}
-
 }
