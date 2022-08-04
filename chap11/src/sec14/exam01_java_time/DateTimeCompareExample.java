@@ -1,6 +1,8 @@
 package sec14.exam01_java_time;
 
+import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 public class DateTimeCompareExample {
@@ -41,7 +43,14 @@ public class DateTimeCompareExample {
 		System.out.println("남은 분 : " + remainMinute);
 		System.out.println("남은 초 : " + remainSecond + "\n");
 		
+		System.out.println("[종료까지 남은 기간]");
+		Period period = Period.between(startDateTime.toLocalDate(), endDateTime.toLocalDate());
+		System.out.println("남은 기간 : " + period.getYears() + "년");
+		System.out.println(period.getMonths() + "달");
+		System.out.println(period.getDays() + "일\n");
 		
+		Duration duration = Duration.between(startDateTime.toLocalTime(), endDateTime.toLocalTime());
+		System.out.println("남은 초 : " + duration.getSeconds());
 	}
 
 }
