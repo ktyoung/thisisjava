@@ -2,6 +2,9 @@ package sec14.exam01_java_time;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
 
 public class DateTimeInfoExample {
 
@@ -26,6 +29,14 @@ public class DateTimeInfoExample {
 			System.out.println("올해는 평년 : 2월은 28일까지 있습니다.\n");
 		}
 
+		ZonedDateTime utcDateTime = ZonedDateTime.now(ZoneId.of("UTC"));
+		System.out.println("협정 세계시 : " + utcDateTime);
+		ZonedDateTime seoulDateTime = ZonedDateTime.now(ZoneId.of("Asia/Seoul"));
+		System.out.println("서울 타임존 : " + seoulDateTime);
+		ZoneId seoulZoneId = seoulDateTime.getZone();
+		System.out.println("서울 존아이디 : " + seoulZoneId);
+		ZoneOffset seoulZoneOffset = seoulDateTime.getOffset();
+		System.out.println("서울 존오프셋 : " + seoulZoneOffset + "\n");
 	}
 
 }
