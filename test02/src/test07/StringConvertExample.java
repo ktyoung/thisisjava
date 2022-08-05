@@ -7,6 +7,6 @@ public class StringConvertExample {
         int intData1 = Integer.parseInt(strData1);
         
         int intData2 = 150;
-        String strData2 = Integer.toString(150);
+        String strData2 = String.valueOf(intData2);
     }
 }
