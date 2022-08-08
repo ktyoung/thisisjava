@@ -37,4 +37,6 @@
 <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
+<fullyQualifiedTypeName name="test01.Car.Tire"/>
+<fullyQualifiedTypeName name="test01.Car.Engine"/>
 </qualifiedTypeNameHistroy>
