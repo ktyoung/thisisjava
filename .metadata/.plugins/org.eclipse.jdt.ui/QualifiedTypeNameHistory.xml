@@ -24,7 +24,6 @@
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.MessageFormat"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.time.Instant"/>
@@ -39,4 +38,5 @@
 <fullyQualifiedTypeName name="java.time.Duration"/>
 <fullyQualifiedTypeName name="test01.Car.Tire"/>
 <fullyQualifiedTypeName name="test01.Car.Engine"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
