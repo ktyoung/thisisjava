@@ -1,4 +1,4 @@
-package sec03.exam03_priority;
+package sec03.exam01_priority;
 
 public class CalcThread extends Thread {
 	public CalcThread(String name) {
