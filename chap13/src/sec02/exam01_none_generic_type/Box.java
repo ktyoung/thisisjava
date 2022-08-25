@@ -3,11 +3,11 @@ package sec02.exam01_none_generic_type;
 public class Box {
 	private Object object;
 
-	public Object getObject() {
+	public Object get() {
 		return object;
 	}
 
-	public void setObject(Object object) {
+	public void set(Object object) {
 		this.object = object;
 	}
 }
