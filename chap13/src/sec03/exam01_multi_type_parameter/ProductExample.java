@@ -7,7 +7,8 @@ public class ProductExample {
 		product1.setKind(new Tv());
 		product1.setModel("½º¸¶Æ®TV");
 		Tv tv = product1.getKind();
-
+		
+		
 	}
 
 }
