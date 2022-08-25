@@ -1,6 +1,6 @@
 package sec02.exam03_int;
 
-public class IntExample {
+public class intExample {
 
 	public static void main(String[] args) {
 		int var1 = 10;	// 10진수로 저장
