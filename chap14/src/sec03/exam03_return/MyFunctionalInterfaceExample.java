@@ -19,6 +19,12 @@ public class MyFunctionalInterfaceExample {
 		fi = (x, y) -> x + y;
 		System.out.println(fi.method(2, 5));
 		
+		// 람다식과 사용자 정의 함수를 함께 사용하기
+		fi = (x, y) -> sum(x, y);
+		System.out.println(fi.method(2, 5));
+		
 	}
-
+	public static int sum(int x, int y) {
+		return (x + y);
+	}
 }
