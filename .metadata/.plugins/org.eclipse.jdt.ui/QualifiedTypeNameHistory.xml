@@ -39,4 +39,8 @@
 <fullyQualifiedTypeName name="test01.Car.Tire"/>
 <fullyQualifiedTypeName name="test01.Car.Engine"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="sec02.exam01_none_generic_type.BoxExample"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="sec03.exam01_multi_type_parameter.Product"/>
+<fullyQualifiedTypeName name="sec03.exam01_multi_type_parameter.Car"/>
 </qualifiedTypeNameHistroy>

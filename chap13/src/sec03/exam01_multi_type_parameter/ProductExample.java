@@ -15,5 +15,4 @@ public class ProductExample {
 		Car car = product2.getKind();
 		String carModel = product2.getModel();
 	}
-
 }
