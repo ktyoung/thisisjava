@@ -12,6 +12,12 @@ public class MyFunctionalInterfaceExample {
 		};
 		// 람다식 실행하기
 		fi.method();
+		
+		fi = () -> { System.out.println("method call 2"); };
+		fi.method();
+		
+		fi = () -> System.out.println("method call 3");
+		fi.method();
 	}
 
 }
